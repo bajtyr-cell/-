@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Albina's 17th Birthday 🍂</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #f7eee4;
+  color: #563d32;
+  font-family: Georgia, serif;
+  text-align: center;
+}
+.hero {
+  min-height: 100vh;
+  padding: 70px 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:
+    linear-gradient(#34251e55, #34251e66),
+    url("YOUR-PHOTO-URL") center/cover;
+  color: #fffaf2;
+}
+.eyebrow {
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+h1 {
+  font-size: clamp(40px, 10vw, 70px);
+  font-weight: normal;
+  margin: 22px 0;
+}
+.hero p {
+  max-width: 520px;
+  line-height: 1.8;
+}
+button, .button {
+  background: #9b7057;
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 30px;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 8px;
+}
+section {
+  padding: 60px 22px;
+}
+h2 {
+  font-weight: normal;
+  font-size: 30px;
+}
+.card {
+  max-width: 550px;
+  margin: 22px auto;
+  padding: 28px;
+  background: #fffaf4;
+  border-radius: 18px;
+  line-height: 1.9;
+}
+.details {
+  display: grid;
+  gap: 12px;
+}
+input, textarea {
+  width: 100%;
+  padding: 14px;
+  margin: 8px 0;
+  border: 1px solid #e4d1bf;
+  border-radius: 10px;
+  background: #fffdf9;
+  font: inherit;
+  color: #563d32;
+}
+textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+footer {
+  padding: 30px;
+  font-size: 13px;
+  color: #8a6b58;
+}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="eyebrow">SAVE THE DATE · OCTOBER 15</div>
+  <h1>Albina’s<br>17th Birthday</h1>
+  <p>
+    Самый тёплый осенний день уже близко… 🍂<br>
+    Приглашаю тебя разделить со мной этот особенный день.
+  </p>
+  <a class="button" href="#invitation">Открыть приглашение ♡</a>
+</header>
+<section id="invitation">
+  <h2>Дорогие мои! 🤎</h2>
+  <div class="card">
+    Привет! 15 октября мне исполняется 17 лет!
+    Я хочу провести этот день ярко, уютно и весело,
+    поэтому приглашаю всех желающих отпраздновать его вместе со мной.
+    <br><br>
+    Неважно, общаемся мы каждый день или давно не виделись —
+    я буду рада каждому из вас!
+    <div class="details" style="margin-top:25px">
+      <div>🍁 <b>Дата:</b> 15 октября</div>
+      <div>🕒 <b>Время:</b> 15:00</div>
+      <div>📍 <b>Место:</b> парк «Манас»</div>
+    </div>
+  </div>
+</section>
+<section>
+  <h2>Письмо для Албины 💌</h2>
+  <div class="card">
+    Мне хочется сохранить частичку этого дня
+    и ваши тёплые слова на память.
+    <p>Напиши мне пожелание, смешную историю,
+    совет, любимую цитату или песню.</p>
+    <form action="https://formsubmit.co/YOUR-EMAIL" method="POST">
+      <input type="hidden" name="_subject" value="Письмо для Албины 💌">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="Имя" placeholder="Как тебя зовут?" required>
+      <textarea name="Письмо" placeholder="Твоё письмо для меня..." required></textarea>
+      <button type="submit">Отправить письмо ♡</button>
+    </form>
+  </div>
+</section>
+<section>
+  <h2>До встречи! 🍂</h2>
+  <div class="card">
+    15 октября · 15:00<br>
+    Парк «Манас»<br><br>
+    Надеюсь, этот день станет одним из тех,
+    которые мы будем вспоминать с улыбкой.
+  </div>
+</section>
+<footer>
+  Made with love · Albina’s 17th Birthday ©
+</footer>
+</body>
+</html>
